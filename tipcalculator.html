@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Calculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div>
+    <h1>Tip Calculator</h1>
+    <form>
+        <p> Total bill amount</p>
+        <input type="text" id="billamount">
+        <p> Quality of service</p>
+        <select id="QualityService">
+            <option value="0.2">Bad -5%</option>
+            <option value="0.5"> ok- 10%</option>
+            <option value="0.6"> great -20%</option>
+        </select>
+
+        <p> Number of people</p>
+        <input type="text" id="numPeople">
+        </form>
+    <button onclick="caltip()"name="button">Calculate</button>
+    <h4 id="resAmt"></h4>
+</div>
+
+</body>
+<script text="text/javascript" src="calculator.js" ></script>
+</html>

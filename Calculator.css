@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(29, 22, 155);
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    background-color: rgb(226, 208, 43);
+    border-radius: 100%;
+    padding: 35px;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
